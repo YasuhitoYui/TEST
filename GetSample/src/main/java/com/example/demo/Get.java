@@ -11,7 +11,7 @@ public class Get {
 
 	@GetMapping("/greeting")
 	public String getgreeting(@RequestParam("param") String param) {
-		return "パラメータ=" + param;
+		return "パラメータTEST=" + param;
 	}
 	
 }
